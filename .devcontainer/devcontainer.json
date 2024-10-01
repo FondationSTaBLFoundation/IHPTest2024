@@ -1,7 +1,7 @@
 {
   "image": "mcr.microsoft.com/devcontainers/base:jammy",
   "features": {
-      "ghcr.io/devcontainers/features/nix:1": {
+      "ghcr.io/devcontainers/features/nix:1.2": {
         "multiUser": true,
         "packages": ["cachix", "ihp-new"],
         "extraNixConfig": "experimental-features = nix-command flakes,keep-outputs = true,keep-derivations = true"
