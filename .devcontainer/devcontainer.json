@@ -3,6 +3,11 @@
   "containerEnv": {
     "PROJECT_DIR": "${containerWorkspaceFolder}"
   },
+
+  "onCreateCommand": {
+    "install nix": "chmod u+x install-nix.sh && ./install-nix.sh",
+  },
+  
   "remoteUser": "vscode",
   "customizations": {
     "vscode": {
