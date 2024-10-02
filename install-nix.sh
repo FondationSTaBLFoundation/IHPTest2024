@@ -26,4 +26,4 @@ sh ./usr/local/share/nix-entrypoint.sh; ( if [ ! -e "Main.hs" ]; then rm -rf /tm
 
 nix develop --accept-flake-config --impure --command make -s all
 
-direnv allow
+. ~/.bashrc
